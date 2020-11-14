@@ -17,6 +17,8 @@ import { ShowTranslationDialogComponent } from './components/dialogs/show-transl
 import { WordListComponent } from './components/content/word-list/word-list.component';
 import { PrintWordsPageComponent } from './pages/print-words-page/print-words-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StartPageComponent } from './pages/start-page/start-page.component';
+import { BookContainerComponent } from './components/content/book-container/book-container.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     TextPageComponent,
     WordListComponent,
     PrintWordsPageComponent,
+    StartPageComponent,
+    BookContainerComponent,
   ],
   imports: [
     BrowserAnimationsModule,

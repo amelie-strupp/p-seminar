@@ -3,7 +3,7 @@ import {
 } from '@angular/animations';
 
 export const slideAnimation = trigger('routeAnimation', [
-      transition('1=>0', [
+      transition('1=>0, 2=>1, 2=>0', [
         style({ position: 'relative' }),
       query(':enter, :leave', [
         style({
@@ -25,7 +25,7 @@ export const slideAnimation = trigger('routeAnimation', [
         ],  {optional: true})
       ]),
     ]),
-    transition('0=>1', [
+    transition('0=>1, 0=>2, 1=>2', [
       style({ position: 'relative' }),
     query(':enter, :leave', [
       style({

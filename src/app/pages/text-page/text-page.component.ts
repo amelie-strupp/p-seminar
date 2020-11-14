@@ -1,3 +1,4 @@
+import { PunctationMark } from './../../classes/text-data';
 import { Color } from './../../constants/colors';
 import { colorsToTexts } from './../../static-data/colorsToTexts';
 import { TeiConverterService } from './../../services/tei-converter.service';
@@ -25,14 +26,16 @@ export class TextPageComponent implements OnInit {
   // List of all the words that the user wants to memorize
   memorizedWordsList: Set<Word> = new Set();
   textId: string;
+  bookId: string;
 constructor(
   private dialog: MatDialog,
   private http: HttpClient,
   private route: ActivatedRoute,
   private converter: TeiConverterService) {
     this.textId = this.route.snapshot.paramMap.get('textId');
-    this.textColor = colorsToTexts[parseInt(this.textId, 10)-1];
-    this.http.get(`assets/texts/text_${this.textId}.xml`, { responseType: 'text' as 'text'}).subscribe(data => {
+    this.bookId = this.route.snapshot.paramMap.get('bookId');
+    this.textColor = colorsToTexts[parseInt(this.textId, 10) - 1];
+    this.http.get(`assets/texts/book_${this.bookId}/text_${this.textId}.xml`, { responseType: 'text' as 'text'}).subscribe(data => {
       this.textData = this.converter.convertTeiToObject(data);
   });
     if (localStorage.getItem(`text_${this.textId}`)){
@@ -82,5 +85,9 @@ showTranslation(word: Word): void{
       wordArray.push(JSON.stringify(singleWord));
     }
     localStorage.setItem(`text_${this.textId}`, JSON.stringify(wordArray));
+  }
+
+  testIfWord(wordOrPunctation: Word|PunctationMark): boolean{
+    return wordOrPunctation instanceof Word;
   }
 }

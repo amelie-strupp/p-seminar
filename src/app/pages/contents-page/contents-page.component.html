@@ -1,14 +1,14 @@
 <app-header
-[title]="'Titel des Buches'"
-[color]="Color.red"
-imgSrc="./assets/images/textImages/svg/book.svg"
+[title]="bookData.title"
+[color]="bookData.color"
+[imgSrc]="bookData.bookIcon"
 ></app-header>
 <main>
   <div id="contents">
   <h2 class="heading-2" id="contentsTitle">Inhaltsverzeichnis</h2>
   <section id="contentsListContainer">
     <ol id="contentsList">
-      <li class="subheading-2" *ngFor="let title of this.textTitles; let i = index" [routerLink]="['/text/'+(i+1)]">Text {{i+1}}: {{title}}</li>
+      <li class="subheading-2" *ngFor="let title of this.textTitles; let i = index" [routerLink]="['/book/'+bookId+'/text/'+(i+1)]">Text {{i+1}}: {{title}}</li>
     </ol>
   </section>
   </div>

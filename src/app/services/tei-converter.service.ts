@@ -1,4 +1,4 @@
-import { TextData, Sentence, SubSentence, Word } from './../classes/text-data';
+import { TextData, Sentence, SubSentence, Word, PunctationMark } from './../classes/text-data';
 import { Injectable } from '@angular/core';
 /**
  * Uses Library Fast-XML-Parser
@@ -16,6 +16,21 @@ export class TeiConverterService {
    */
   convertTeiToObject(xmlData: string): TextData {
     /**
+     * Replace puctation mark tags with punction marks themselves, since they shouldn't be encoded.
+     */
+    const regExpForPunctationTags = new RegExp('<pc>(.*?)</pc>');
+    let punctationMarkFound = regExpForPunctationTags.test(xmlData);
+    while (punctationMarkFound){
+      const index = regExpForPunctationTags.exec(xmlData).index;
+      const match = regExpForPunctationTags.exec(xmlData)[0];
+      const punctationMark = regExpForPunctationTags.exec(xmlData)[1];
+      xmlData = xmlData.substring(
+        0, index) + '<w pos="" notation="" isPunctationMark="true">' +punctationMark + '</w>' + xmlData.substring(index + match.length
+      );
+      punctationMarkFound = regExpForPunctationTags.test(xmlData);
+    }
+
+    /**
      * Options to configure how the XML-Object is being parsed to json
      * -> Convertion useful since JSON is a more "native" format for JS than XML
      * -> easier access
@@ -27,12 +42,11 @@ export class TeiConverterService {
       ignoreAttributes : false,
       parseNodeValue : true,
       parseAttributeValue : false,
-      trimValues: true,
+      trimValues: true
     };
 
     const jsonData = Parser.parse(xmlData, options);
     const textData: TextData = new TextData();
-
     /**
      * Fill TextData with Values from JSON
      */
@@ -45,7 +59,6 @@ export class TeiConverterService {
     // Extracting sentences
     for (const sentenceObject of jsonData.TEI.text.div.s){
       textData.sentences.push(new Sentence());
-      console.log(sentenceObject);
       if (!Array.isArray(sentenceObject.cl)){
         sentenceObject.cl = [sentenceObject.cl];
       }
@@ -76,6 +89,34 @@ export class TeiConverterService {
             for (const wordObject of subSentenceObject.w){
               // Add the word into the word-Array after filling in the properties
               const lastIndexOfSubsenteceArray = textData.sentences[textData.sentences.length - 1].subSentences.length - 1;
+              if (wordObject.attr.attr_isPunctationMark){
+                const punctationMark: PunctationMark = new PunctationMark();
+                punctationMark.punctationMark = wordObject.text;
+                textData.sentences[textData.sentences.length - 1].subSentences[lastIndexOfSubsenteceArray].words.push(punctationMark);
+              }
+              else{
+                const word: Word = new Word();
+
+                word.latinWord = wordObject.text;
+                word.germanTranslation = wordObject.attr.attr_notation;
+                word.grammaticalForm = wordObject.attr.attr_pos;
+
+                textData.sentences[textData.sentences.length - 1].subSentences[lastIndexOfSubsenteceArray].words.push(word);
+              }
+            }
+          }
+          else{
+
+            const wordObject = subSentenceObject.w;
+            const lastIndexOfSubsenteceArray = textData.sentences[textData.sentences.length - 1].subSentences.length - 1;
+            if (wordObject.attr.attr_isPunctationMark){
+              const punctationMark: PunctationMark = new PunctationMark();
+              punctationMark.punctationMark = wordObject.text;
+              console.log(wordObject.attr.attr_isPunctationMark);
+              textData.sentences[textData.sentences.length - 1].subSentences[lastIndexOfSubsenteceArray].words.push(punctationMark);
+            }
+            else{
+              // Add the word into the word-Array after filling in the properties
               const word: Word = new Word();
 
               word.latinWord = wordObject.text;
@@ -84,19 +125,6 @@ export class TeiConverterService {
 
               textData.sentences[textData.sentences.length - 1].subSentences[lastIndexOfSubsenteceArray].words.push(word);
             }
-          }
-          else{
-            const wordObject = subSentenceObject.w;
-
-            // Add the word into the word-Array after filling in the properties
-            const lastIndexOfSubsenteceArray = textData.sentences[textData.sentences.length - 1].subSentences.length - 1;
-            const word: Word = new Word();
-
-            word.latinWord = wordObject.text;
-            word.germanTranslation = wordObject.attr.attr_notation;
-            word.grammaticalForm = wordObject.attr.attr_pos;
-
-            textData.sentences[textData.sentences.length - 1].subSentences[lastIndexOfSubsenteceArray].words.push(word);
           }
         }
       }

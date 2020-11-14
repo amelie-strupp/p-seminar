@@ -15,10 +15,15 @@
           <!--Show a left margin after every subsentence if and only if the sentence should be indented-->
           <span *ngFor="let subsentence of sentence.subSentences; let isFirstSubSentence = first"
           [style.marginLeft.px]="isSentenceIndented(sentenceCounter) ? subsentence.getIndentationDepth()*32 : 0">
-            <span class="singleWord" *ngFor="let word of subsentence.words;  let isFirstWord = first"
+          <span *ngFor="let wordOrPunctation of subsentence.words;  let isFirstWord = first">
+            <span class="singleWord" *ngIf="testIfWord(wordOrPunctation)"
             [class.firstWord]="isFirstWord && isFirstSubSentence"
-            (click)="showTranslation(word)">
-              {{word.latinWord}}
+            (click)="showTranslation(wordOrPunctation)">
+              {{wordOrPunctation.latinWord}}
+            </span>
+            <span class="punctationMark"  *ngIf="!testIfWord(wordOrPunctation)">
+              {{wordOrPunctation.punctationMark}}
+            </span>
             </span>
             <!--Show a line break if and only if the sentence should be indented-->
             <ng-template [ngIf]="isSentenceIndented(sentenceCounter)">

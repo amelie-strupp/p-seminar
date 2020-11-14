@@ -28,7 +28,7 @@ export class SubSentence{
   /**
    * A sentence consists out of multiple word-objects
    */
-  words: Array<Word> = [];
+  words: Array<any> = [];
   /**
    * Wether the sentence is a main clause or
    * ad subordinate clause
@@ -51,4 +51,7 @@ export class Word{
   latinWord: string;
   germanTranslation: string;
   grammaticalForm: string;
+}
+export class PunctationMark{
+  punctationMark: string;
 }
