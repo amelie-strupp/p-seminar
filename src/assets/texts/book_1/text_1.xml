@@ -1,0 +1,54 @@
+<TEI>
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+   <title>Klage und Bitte</title>
+   <author>Schwarz, Roman</author>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+ Ovid, Metamorphosen, V. 540.-546.
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<div>
+
+<lb n-individuell="1"/>
+<lb n-original="540"/>
+<s>
+<cl type="hs"> <w pos="Nominativ Singular, Maskulinum" notation="der">Qui</w> <w pos="-" notation="jedoch">tamen</w> <w pos="3. Person Singular Präsens Indikativ Passiv; Deponens" notation="folgen">insequitur</w> </cl> <cl type="ns"> <w pos="Ablativ Plural, Femininum" notation="der Pfeil">pennis</w> <w pos="Nominativ Singular Partizip Perfekt Passiv" notation="unterstützt">adiutus</w> <w pos="Genitiv Singular, Maskulinum" notation="Eigenname">Amoris</w> </cl> <pc>,</pc>
+
+<lb n-individuell="2"/>
+<lb n-original="541"/>
+<cl type="hs"> <w pos="Maskulinum Komperativ" notation="schnell">ocior</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="sein">est</w> <w pos="Akkusativ Singular, Femininum" notation="die Ruhe">requiem</w> <w pos="-" notation="und">que</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="verneinen">negat</w> <w pos="Ablativ Singular, Neutrum" notation="der Rücken">tergo</w> <w pos="-" notation="und">que</w> <w pos="Genitiv Singular, Femininum" notation="die Fliehende">fugacis</w>
+
+<lb n-individuell="3"/>
+<lb n-original="542"/>
+<w pos="3. Person Singular Präsens Indikativ Aktiv" notation="berühren">inminet</w> <w pos="-" notation="und">et</w> <w pos="Akkusativ Singular, Maskulinum" notation="das Haar">crinem</w> <w pos="Akkusativ Singular Partizip Perfekt Passiv" notation="zersaust">sparsum</w> <w pos="Ablativ Plural, Femininum" notation="der Nacken">cervicibus</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="an atmen">adflat</w> <pc>.</pc> </cl>
+</s>
+
+<s>
+<lb n-individuell="4"/>
+<lb n-original="543"/>
+<cl type="ns"> <w pos="Ablativ Plural, Femininum" notation="die Kraft">viribus</w> <w pos="Ablativ Plural, Femininum" notation="verbrauchen">absumptis</w> </cl> <cl type="hs"> <w pos="3. Person Singular Perfekt Indikativ Aktiv" notation="erblassen">expalluit</w> <w pos="Nominativ Singular, Femininum" notation="jene">illa</w> <w pos="Genitiv Singular, Femininum" notation="hastig">citae</w> <w pos="-" notation="und">que</w> </cl>
+
+<lb n-individuell="5"/>
+<lb n-original="544"/>
+<cl type="ns"> <w pos="Ablativ Singular, Maskulinum" notation="erschöpft">victa</w> <w pos="Ablativ Singular, Maskulinum" notation="die Anstrengung">labore</w> <w pos="Genitiv Singular, Femininum" notation="die Flucht">fugae</w> </cl> <cl type="ns"> <w pos="Nominativ Singular Partizip Präsens Aktiv" notation="betrachten">spectans</w> PPA <w pos="Genitiv Singular, Maskulinum" notation="Eigenname">Peneidas</w> <w pos="Akkusativ Plural, Femininum" notation="die Welle">undas</w> </cl>
+
+<lb n-individuell="6"/>
+<lb n-original="545"/>
+<cl type="hs"> <pc>"</pc> <w pos="2. Person Singular Präsens Imperativ Aktiv" notation="bringen">fer</w> <w pos="Vokativ Singular, Maskulinum" notation="der Vater">pater</w> <pc>"</pc> <cl type="hs"> <w pos="3. Person Singular Perfekt Indikativ Aktiv" notation="sie sagte">inquit</w> </cl> <pc>,</pc> <pc>"</pc> <w pos="Akkusativ Singular, Femininum" notation="die Hilfe">opem</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="-" notation="wenn">si</w> <w pos="Vokativ Plural, Neutrum" notation="der Fluss">flumina</w> <w pos="Akkusativ Singular, Neutrum" notation="der göttliche Wille">numen</w> <w pos="2. Person Plural Präsens Indikativ Aktiv" notation="besitzen">habetis</w> </cl> <pc>,</pc>
+
+<lb n-individuell="7"/>
+<lb n-original="546"/>
+<cl type="ns"> <w pos="Ablativ Singular, Femininum" notation="in der">qua</w> <w pos="-" notation="allzu sehr">nimium</w> <w pos="	1. Person Singular Perfekt Indikativ Aktiv" notation="Gefallen erregen">placui</w> </cl> <pc>,</pc> <cl type="hs"> <w pos="Ablativ Singular, Neutrum; Gerundivum" notation="eine Verwandlung">mutando</w> <w pos="2. Person Singular Präsens Imperativ Aktiv" notation="zerstören">perde</w> <w pos="Akkusativ Singular, Femininum" notation="die Gestalt">figuram</w> <pc>!</pc> <pc>"</pc> </cl>
+</s>
+
+</div>
+</text>
+</TEI>

@@ -1,0 +1,19 @@
+@import "~src/app/designSystem/designSystem"
+
+#bookContainer
+  display: grid
+  justify-items: center
+  padding: 16px
+  border: $border-thin
+  border-radius: 5px
+  cursor: pointer
+  transition: background-color 120ms
+  &:hover
+    background-color: $grey-light
+    #bookTitle
+      font-weight: 700
+  #bookIcon
+    height: 100px
+  #bookTitle
+    @extend .subheading-1
+    text-align: center

@@ -1,0 +1,65 @@
+<TEI>
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+   <title>Geflüster</title>
+   <author>Schwarz, Roman</author>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+ Ovid, Metamorphosen, V.63.-70.
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<div>
+
+<lb n-individuell="9"/> 
+<lb n-original="63"/>
+<s>
+<cl type="hs"> <w pos="Nominativ Singular, Maskulinum" notation="der Mitwisser">conscius</w> <w pos="Nominativ Singular, Maskulinum" notation="jeder">omnis</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="abwesend sein">abest</w> </cl> <pc>;</pc> <cl type="hs"> <w pos="Ablativ Singular, Maskulinum" notation="das Zunicken">nutu</w> <w pos="Ablativ Plural, Neutrum" notation="das Zeichen">signis</w> <w pos="-" notation="und">que</w> <w pos="3. Person Plural Präsens Indikativ Passiv; Deponens" notation="sprechen">loquuntur</w> </cl> <pc>,</pc>
+
+<lb n-individuell="10"/> 
+<lb n-original="64"/>
+<cl type="ns"> <w pos="-" notation="und">quoque</w> <w pos="-" notation="je mehr">magis</w> <w pos="3. Person Singular Präsens Indikativ Passiv" notation="bedecken">tegitur</w> </cl> <pc>,</pc> <cl type="hs"> <w pos="Nominativ Singular Partizip Perfekt Passiv" notation="als Bedecktes">tectus</w> <w pos="-" notation="umso mehr">magis</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="lodern">aestuat</w> <w pos="Nominativ Singular, Maskulinum" notation="das Feuer">ignis</w> </cl> <pc>.</pc> 
+</s>
+
+<lb n-individuell="11"/> 
+<lb n-original="65"/>
+<s>
+<cl type="hs"> <w pos="3. Person Singular Plusquamperfekt Indikativ Passiv" notation="spalten">fissus erat</w> <w pos="Ablativ Singular, Femininum" notation="dünn">tenui</w> <w pos="Ablativ Singular, Femininum" notation="der Riss">rima</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="Akkusativ Singular, Femininum" notation="die">quam</w> <w pos="	3. Person Singular Plusquamperfekt Indikativ Aktiv" notation="bekommen">duxerat</w> <w pos="-" notation="einst">olim</w> </cl> <pc>,</pc> 
+
+
+<lb n-individuell="12"/> 
+<lb n-original="66"/>
+<cl type="ns 2"> <w pos="mit Konjunktiv" notation="als">cum</w> <w pos="3. Person Singular Imperfekt Konjunktiv Aktiv" notation="gemacht werden">fieret</w> </cl> <pc>,</pc> <cl type="hs"> <w pos="Nominativ Singular, Maskulinum" notation="die Wand">paries</w> <w pos="Dativ Singular, Femininum" notation="das Haus">domui</w> <w pos="Nominativ Singular, Maskulinum" notation="gemeinsam">communis</w> <w pos="Dativ Singular, Femininum" notation="beide">utrique</w> <pc>.</pc> </cl>
+</s>
+
+<lb n-individuell="13"/> 
+<lb n-original="67"/>
+<s>
+<cl type="hs"> <w pos="Nominativ Singular, Neutrum" notation="dieser">id</w> <w pos="Nominativ Singular, Neutrum" notation="der Fehler">vitium</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="Genitiv Singular, Maskulinum" notation="niemand">nulli</w> <w pos="-" notation="über">per</w> <w pos="Akkusativ Plural, Neutrum" notation="das Jahrhundert">saecula</w> <w pos="Akkusativ Plural, Neutrum" notation="lange">longa</w> <w notation="bemerkt">notatum</w> </cl> <pc>,</pc> 
+
+
+<lb n-individuell="14"/> 
+<lb n-original="68"/>
+<cl type="hs"> <w pos="Akkusativ Singular, Neutrum" notation="was">quid</w> <w pos="-" notation="nicht">non</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="bemerken">sentit </w> <w pos="Nominativ Singular, Maskulinum" notation="die Liebe">amor</w> <pc>?</pc> <w pos="Nominativ Plural, Maskulinum" notation="als Erster">primi</w> <w pos="2. Person Plural Perfekt Indikativ Aktiv" notation="sehen">vidistis</w> <w pos="Vokativ Plural" notation="die Liebenden">amantes</w> <pc>.</pc> </cl>
+</s>
+
+<lb n-individuell="15"/> 
+<lb n-original="69"/>
+<s>
+<cl type="hs"> <w pos="-" notation="und">et</w> <w pos="Genitiv Singular, Femininum" notation="die Stimme">vocis</w> <w pos="2. Person Plural Perfekt Indikativ Aktiv" notation="machen">fecistis</w> <w pos="Akkusativ Singular, Neutrum" notation="der Weg">iter</w> <pc>,</pc> <w pos="Nominativ Plural, Femininum" notation="sicher">tutae</w> <w pos="-" notation="und">que</w> <w pos="-" notation="durch">per</w> <w pos="Akkusativ Singular, Neutrum" notation="jener">illud</w> 
+
+
+<lb n-individuell="16"/> 
+<lb n-original="70"/>
+<w pos="Ablativ Singular, Maskulinum" notation="das Geflüster">murmure</w> <w pos="Nominativ Plural, Femininum" notation="die zärtlichen Worte">blanditiae</w> <w pos="Ablativ Singular, Maskulinum; Superlativ" notation="leise">minimo</w> <w pos="Infinitiv" notation="hindurchzugehen">transire</w> <w pos="3. Person Plural Imperfekt Indikativ Aktiv" notation="gewohnt sein">solebant</w> <pc>.</pc> </cl>
+</s>
+
+</div>
+</text>
+</TEI>

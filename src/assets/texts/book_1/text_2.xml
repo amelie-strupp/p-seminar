@@ -1,0 +1,77 @@
+<TEI>
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+   <title>Die Verwandlung</title>
+   <author>Schwarz, Roman</author>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+ Ovid, Metamorphosen, V. 547.-558.
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<div>
+
+<lb n-individuell="8"/>
+<lb n-original="547"/>
+<s>
+<cl type="ns"> <w pos="-" notation="kaum">vix</w> <w pos="Ablativ Singular, Femininum" notation="die Bitte">prece</w> <w pos="Ablativ Singular Partizip Perfekt Passiv" notation="beenden">finita</w> </cl> <pc>,</pc> <cl></cl> <cl type="hs"> <w pos="Nominativ Singular, Maskulinum" notation="die Starre">torpor</w> <w pos="-" notation="schwer">gravis</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="befallen">occupat</w> <w pos="Akkusativ Plural, Maskulinum" notation="die Gliedmaßen">artus</w> <pc>:</pc> </cl>
+
+<lb n-individuell="9"/>
+<lb n-original="548"/>
+<cl type="hs"> <w pos="Nominativ Plural, Neutrum" notation="weich">mollia</w> <w pos="3. Person Plural Präsens Indikativ Passiv" notation="umschlingen">cinguntur</w> <w pos="Ablativ Singular, Maskulinum" notation="zart">tenui</w> <w pos="Nominativ Plural, Neutrum" notation="die Brust">praecordia</w> <w pos="Ablativ Singular, Maskulinum" notation="der Bast">libro</w> <pc>,</pc>
+
+<lb n-individuell="10"/>
+<lb n-original="549"/>
+<w pos="-" notation="in">in</w> <w pos="Akkusativ Singular, Femininum" notation="das Laub">frondem</w> <w pos="Nominativ Plural, Maskulinum" notation="das Haar">crines</w> <pc>,</pc> <w pos="-" notation="zu">in</w> <w pos="Akkusativ Plural, Maskulinum" notation="der Zweig">ramos</w> <w pos="Nominativ Plural, Maskulinum" notation="der Arm">bracchia</w> <w pos="3. Person Plural Präsens Indikativ Aktiv" notation="wachsen">crescunt </w> <pc>,</pc> 
+
+<lb n-individuell="11"/>
+<lb n-original="550"/>
+<w pos="Nominativ Singular, Maskulinum" notation="der Fuß">pes</w> <w pos="-" notation="eben">modo</w> <w pos="-" notation="so">tam</w> <w pos="Nominativ Singular, Maskulinum" notation="flink">velox</w> <w pos="Ablativ Plural, Femininum" notation="zäh">pigris</w> <w pos="Ablativ Pluarl, Femininum" notation="die Wurzel">radicibus</w> <w pos="	3. Person Singular Präsens Indikativ Aktiv" notation="stecken bleiben">haeret</w> <pc>,</pc>
+
+<lb n-individuell="12"/>
+<lb n-original="551"/>
+<w pos="Nominativ Plural, Neutrum " notation="das Gesicht">ora</w> <w pos="Akkusativ Singular, Neutrum" notation="der Baumwipfel">cacumen</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="tragen">habet</w> <pc>:</pc> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="bleiben">remanet</w> <w pos="Nominativ Singular, Maskulinum" notation="der Glanz">nitor</w> <w pos="Nominativ Singular, Maskulinum" notation="letzter">unus</w> <w pos="-" notation="von">in</w> <w pos="Ablativ Plural, Femininum" notation="jener">illa</w> <pc>.</pc> </cl>
+</s>
+
+<s>
+<lb n-individuell="13"/>
+<lb n-original="552"/>
+<cl type="hs"> <w pos="Akkusativ Singular, Femininum" notation="diese">Hanc</w> <w pos="-" notation="auch">quoque</w> <w pos="Nominativ" notation="Phoebus">Phoebus</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="lieben">amat</w> </cl> <cl type="ns"> <w pos="Ablativ Singular Partizip Perfekt Passiv" notation="legen">posita</w> <w pos="-" notation="und">que</w> <w pos="-" notation="auf">in</w> <w pos="Ablativ Singular, Maskulinum" notation="der Baumstamm">stipite</w> <w pos="Ablativ Singular, Femininum" notation="die rechte Hand">dextra</w> </cl>
+
+<lb n-individuell="14"/>
+<lb n-original="553"/>
+<cl type="hs"> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="spüren">sentit</w> <w pos="-" notation="immer noch">adhuc</w> <w pos="Infinitiv Indikativ Aktiv" notation="zittern">trepidare</w> <w pos="Ablativ Singular, Femininum" notation="neu">novo</w> <w pos="-" notation="unter">sub</w> <w pos="Ablativ Singular, Femininum" notation="die Rinde">cortice</w> <w pos="Akkusativ Singular, Neutrum" notation="das Herz">pectus</w> </cl>
+
+<lb n-individuell="15"/>
+<lb n-original="554"/>
+<cl type="ns"> <w pos="Nominativ Singular Partizip Perfekt Passiv" notation="umschlingen">conplexus</w> <w pos="-" notation="und">que</w> <w pos="Ablativ Plural, Maskulinum" notation="sein">suis</w> <w pos="Akkusativ Plural, Maskulinum" notation="der Ast">ramos</w> <w pos="-" notation="wie">ut</w> <w pos="Akkusativ Plural, Neutrum" notation="das Gliedmaß">membra</w> <w pos="Ablativ Plural, Maskulinum" notation="der Arm">lacertis</w> <pc>,</pc> </cl>
+
+<lb n-individuell="16"/>
+<lb n-original="555"/>
+<cl type="hs"> <w pos="Akkusativ Plural, Neutrum" notation="der Kuss">oscula</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="geben">dat</w> <w pos="Dativ Singular, Neutrum" notation="das Holz">ligno</w> </cl> <pc>.</pc> <cl type="hs"> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="entfliehen">refugit</w> <w pos="-" notation="dennoch">tamen</w> <w pos="Akkusativ Plural, Neutrum" notation="der Kuss">oscula</w> <w pos="Nominativ Singular, Neutrum" notation="der Baum">lignum</w> <pc>.</pc> </cl>
+</s>
+
+<lb n-individuell="17"/>
+<lb n-original="556"/>
+<s>
+<cl type="hs"> <w pos="Dativ Singular, Femininum" notation="diese">cui</w> <w pos="Nominativ Singular, Maskulinum" notation="der Gott">deus</w> <pc>,</pc> <pc>"</pc> <w pos="-" notation="aber">at</w> <w pos="-" notation="weil">quoniam</w> <w pos="Nominativ Singular, Femininum" notation="die Ehefrau">coniunx</w> <w pos="Nominativ Singular, Femininum" notation="meine">mea</w> <w pos="-" notation="nicht">non</w> <w pos="2. Person Singular Präsens Indikativ Aktiv" notation="können">potes</w> <w pos="Infinitiv Präsens Aktiv" notation="sein">esse</w> <pc>,</pc>
+
+
+<lb n-individuell="18"/>
+<lb n-original="557"/>
+<w pos="Nominativ Singular, Femininum" notation="der Baum">arbor</w> <w pos="2. Person Singular Futur I Indikativ Aktiv" notation="sein">eris</w> <w pos="-" notation="sicher">certe</w> <pc>"</pc> <w pos="3. Person Singular Perfekt Indikativ Aktiv" notation="sagen">dixit</w> <pc>,</pc> <pc>"</pc><w pos="Nominativ Singular, Femininum" notation="mein">mea</w> <pc>!</pc> <w pos="-" notation="immer">semper</w> <w pos="3. Person Plural Futur I Indikativ Aktiv" notation="tragen">habebunt</w>
+
+<lb n-individuell="19"/>
+<lb n-original="558"/>
+<w pos="-" notation="dich">te</w> <w pos="Nominativ Singular, Neutrum" notation="das Haar">coma</w> <pc>,</pc> <w pos="-" notation="dich">te</w> <w pos="Nominativ Plural, Femininum" notation="die Leier">citharae</w> <pc>,</pc> <w pos="-" notation="dich">te</w> <w pos="Nominativ Plural, Femininum" notation="unser">nostrae</w> <pc>,</pc> <w pos="Vokativ Singular, Femininum" notation="der Lorbeer">laure</w> <pc>,</pc> <w pos="Nominativ Plural, Femininum" notation="der Köcher">pharetrae</w> <pc>;</pc> </cl>
+</s>
+
+</div>
+</text>
+</TEI>

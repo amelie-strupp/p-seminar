@@ -1,0 +1,16 @@
+<app-header
+[title]="'LAMA - LAtein Mal Anders'"
+[color]="Color.orangeLight"
+imgSrc="./assets/images/logo.svg"
+></app-header>
+<main>
+  <h2 id="ourBooksHeading">Unsere Bücher</h2>
+  <section id="booksContainer">
+    <app-book-container
+    routerLink="/contents/0"
+    title="Pyramus und Thisbe" bookIcon="./assets/images/bookImages/pyramus.svg"></app-book-container>
+    <app-book-container
+    routerLink="/contents/1"
+    title="Apollo und Daphne" bookIcon="./assets/images/bookImages/apollo.svg"></app-book-container>
+  </section>
+</main>

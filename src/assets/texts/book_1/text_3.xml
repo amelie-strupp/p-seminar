@@ -1,0 +1,58 @@
+<TEI>
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+   <title>Das Ende</title>
+   <author>Schwarz, Roman</author>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+ Ovid, Metamorphosen, V. 559.-566.
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<div>
+
+<lb n-individuell="20"/> 
+<lb n-original="559"/>
+<s>
+<cl type="hs"> <w pos="-" notation="du">tu</w> <w pos="Dativ Plural, Maskulinum" notation="der Feldherr">ducibus</w> <w pos="Dativ Plural, Maskulinum" notation="lateinisch">Latiis</w> <w pos="2. Person Singular Futur I Indikativ Aktiv" notation="helfen">aderis</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="-" notation="wenn">cum</w> <w pos="Nominativ Singular, Femininum" notation="fröhlich">laeta</w> <w pos="Akkusativ Singular, Maskulinum" notation="der Triumph">Triumphum</w>
+<lb n-individuell="21"/>
+<lb n-original="560"/>
+<w pos="Nominativ Singular, Femininum" notation="die Stimme">vox</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="singen">canet</w> <w pos="-" notation="und">et</w> <w pos="3. Person Plural Präsens Indikativ Aktiv" notation="sehen">visent</w> <w pos="Akkusativ Plural, Femininum" notation="lang">longas</w> <w pos="Nominativ Plural, Neutrum" notation="das Kapitol">Capitolia</w> <w pos="Akkusativ Plural, Femininum" notation="der Siegeszug">pompas</w> <pc>;</pc> </cl>
+</s>
+
+<lb n-individuell="22"/>
+<lb n-original="561"/>
+<s>
+<cl type="hs"> <w pos="Lokativ Plural, Maskulinum" notation="die Pforte">postibus</w> <w pos="Lokativ, Maskulinum" notation="heilig">augustis</w> <w pos="-" notation="ebenfalls">eadem</w> <w pos="Nominativ Singular, Femininum, Superlativ" notation="treu">fidissima</w> <w pos="Nominativ Singular, Femininum" notation="die Wächterin">custos</w>
+<lb n-individuell="23"/>
+<lb n-original="562"/>
+<w pos="-" notation="vor">ante</w> <w pos="Akkusativ Plural, Femininum" notation="die Tür">fores</w> <w pos="2. Person Singular Futur I Indikativ Aktiv" notation="stehen">stabis</w> <w pos="Akkusativ Singular, Femininum" notation="in der Mitte">mediam</w> <w pos="-" notation="und">que</w> <w pos="Infinitiv Aktiv" notation="beschützen">tuebere</w> <w pos="Akkusativ Singular, Femininum" notation="der Eichenkranz">quercum</w> <pc>.</pc> </cl>
+</s>
+
+<lb n-individuell="24"/>
+<lb n-original="563"/>
+<s>
+<cl type="hs"> <w pos="-" notation="so wie">ut</w> <w pos="-" notation="und">que</w> <w pos="-" notation="mein">meum</w> <w pos="Ablativ Plural, Maskulinum" notation="ungeschoren">intonsis</w> <w pos="Nominativ Singular, Neutrum" notation="das Haupt">caput</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="sein">est</w> <w pos="Nominativ Singular, Neutrum" notation="jugendlich">iuvenale</w> <w pos="Ablativ Plural, Maskulinum" notation="das Haar">capillis</w> <pc>,</pc>
+<lb n-individuell="25"/>
+<lb n-original="564"/>
+<w pos="-" notation="du">tu</w> <w pos="-" notation="auch">quoque</w> <w pos="Nominativ Plural, Maskulinum" notation="ständig">perpetuos</w> <w pos="-" notation="immer">semper</w> <w pos="2. Person Singular Präsens Imperativ Aktiv" notation="tragen">gere</w> <w pos="Akkusativ Plural, Femininum" notation="das Laub">frondis</w> <w pos="Nominativ Plural, Maskulinum" notation="die Zierde">honores</w> <pc>!</pc> <pc>"</pc> </cl> 
+</s>
+
+<lb n-individuell="26"/>
+<lb n-original="565"/>
+<s>
+<cl type="hs"> <w pos="3. Person Präsens Plusquamperfekt Indikativ Aktiv" notation="beenden">finierat</w> <w pos="Nominativ" notation="Päan">Paean</w> <pc>:</pc> <w pos="Ablativ Plural Partizip Perfekt Passiv" notation="entstehen">factis</w> <w pos="-" notation="eben">modo</w> <w pos="Nominativ Singular, Femininum" notation="der Lorbeer">laurea</w> <w pos="Ablativ Plural, Maskulinum" notation="der Zweig">ramis</w>
+<lb n-individuell="27"/>
+<lb n-original="566"/>
+<w pos="3. Person Singular Perfekt Indikativ Aktiv" notation="ein Zeichen geben">adnuit</w> </cl> <cl type="ns"> <w pos="-" notation="wie">ut</w> <w pos="-" notation="und">que</w> <w pos="Akkusativ Singular, Neutrum" notation="das Haupt">caput</w> <w pos="Nominativ Singular Partizip Perfekt Passiv" notation="scheinen">visa est</w> <w pos="Infinitiv Perfekt Aktiv" notation="bewegen">agitasse</w> <w pos="Akkusativ Singular, Neutrum" notation="der Wipfel">cacumen</w> <pc>.</pc> </cl>
+</s>
+
+</div>
+</text>
+</TEI>

@@ -1,0 +1,47 @@
+<TEI>
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+   <title>Verzweiflung</title>
+   <author>Schwarz, Roman</author>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <p>
+ Ovid, Metamorphosen, V.71.-75.
+   </p>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<div>
+
+
+<lb n-individuell="17"/>
+<lb n-original="71"/>
+<s>
+<cl type="hs"> <w pos="-" notation="oft">saepe</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="-" notation="sobald">ubi</w> <w pos="3. Person Plural Plusquamperfekt Indikativ Aktiv" notation="sich hinstellen">constiterant</w> </cl> <pc>,</pc>  <cl type="ns 2"> <w pos="-" notation="von hier">hinc</w> <w pos="-" notation="Eigenname">Thisbe</w> <pc>,</pc> <w pos="-" notation="Eigenname">Pyramus</w> <w pos="-" notation="von dort">illinc</w> <pc>,</pc> </cl>
+
+<lb n-individuell="18"/>
+<lb n-original="72"/>
+<cl type="ns"> <w pos="-" notation="im">in</w> <w pos="-" notation="und">que</w> <w pos="Akkusativ Plural, Femininum" notation="der Wechsel">vices</w> <w pos="3. Person Singular Plusquamperfekt Indikativ Passiv" notation="auffangen">captatus fuerat</w> <w pos="Nominativ Singular, Maskulinum" notation="der Atem">anhelitus</w> <w pos="Genitiv Singular, Neutrum" notation="der Mund">oris</w> <pc>,</pc> </cl>
+
+<lb n-individuell="19"/>
+<lb n-original="73"/>
+<cl type="hs"> <pc>"</pc> <w pos="Vokativ Singular, Maskulinum" notation="neidisch">invide</w> <pc>"</pc> </cl> <cl type="hs"> <w notation="sagen">dicebant</w> </cl> <cl type="hs"> <pc>"</pc> <w pos="Vokativ Singular, Maskulinum" notation="die Wand">paries</w> <pc>,</pc> <w pos="-" notation="was">quid</w> <w pos="Dativ Plural" notation="die Liebenden">amantibus</w> <w pos="2. Person Singular Präsens Indikativ Aktiv" notation="im Weg stehen">obstas</w> <pc>?</pc> </cl>
+</s>
+
+<lb n-individuell="20"/>
+<lb n-original="74"/>
+<s>
+<cl type="hs"> <w pos="-" notation="wie viel">quantum</w> <w pos="3. Person Singular Imperfekt Indikativ Aktiv" notation="sein">erat</w> </cl> <pc>,</pc> <cl type="ns"> <w pos="mit Konjunktiv" notation="dass">ut</w> <w pos="2. Person Singular Imperfekt Konjunktiv Aktiv" notation="zulassen">sineres</w> </cl> <cl type="ns 2"> <w pos="Ablativ Singular, Neutrum" notation="ganz">toto</w> <w pos="Akkusativ Plural" notation="wir">nos</w> <w pos="Ablativ Singular, Neutrum" notation="der Körper">corpore</w> <w pos="Infinitiv Präsens Passiv" notation="verbinden">iungi</w> </cl> <pc>,</pc>
+
+<lb n-individuell="21"/>
+<lb n-original="75"/>
+<cl type="ns"> <w pos="-" notation="oder">aut</w> <pc>,</pc> </cl> <cl type="ns 2"> <w pos="Nominativ Singular, Neutrum" notation="dies">hoc</w> <w pos="-" notation="wenn">si</w> <w pos="-" notation="zu viel">nimium</w> <w pos="3. Person Singular Präsens Indikativ Aktiv" notation="sein">est</w> <pc>,</pc> </cl> <cl type="ns 3"> <w pos="-" notation="wenigstens">vel</w> <w pos="-" notation="zum">ad</w> <w pos="Akkusativ Plural, Neutrum" notation="der Kuss">oscula</w> <w pos="Akkusativ Plural, Neutrum; Gerundivum" notation="geben">danda</w> <w pos="2. Person Singular Imperfekt Konjunktiv Aktiv" notation="offenstehen">pateres</w> <pc>?</pc> </cl>
+</s>
+
+</div>
+</text>
+</TEI>
