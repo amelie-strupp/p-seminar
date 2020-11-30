@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "lateinPSeminar"
+  "defaultProject": "lateinPSeminar",
+  "cli": {
+    "analytics": "bc7020a0-cab5-4c4c-8aac-51a98bc4327a"
+  }
 }
