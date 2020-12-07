@@ -58,12 +58,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Format of language files
 Words are encoded as XML-tags with attributes:
--Word (`<w>`)
-  -"pos" -> grammar 
-  -"notation" -> translation
--Linebreak (`<lb>`) -> line number
--Sentence (`<s>`)
--Clause (`<cl>`)
-  -"type='hs'" -> main clause
-  -"type='ns'" -> subclause
--Punctuation (`<pc>`)
+- Word (`<w>`)
+  - "pos" -> grammar 
+  - "notation" -> translation
+- Linebreak (`<lb>`) -> line number
+- Sentence (`<s>`)
+- Clause (`<cl>`)
+  - "type='hs'" -> main clause
+  - "type='ns'" -> subclause
+- Punctuation (`<pc>`)
