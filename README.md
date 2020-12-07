@@ -23,7 +23,7 @@ cd p-seminar
 npm install @angular/cli
 ```
 
-If wanting not to use any of the GitHub command line interfaces, you can get a local copy of the repository by using the button with the download icon at the top of the main page to download the code as a ZIP file. Then unzip it and navigate to this folder in your command line using the `cd` command like shown in the following block by substituting your individual path.
+If you don't want to use any of the GitHub command line interfaces, you can get a local copy of the repository by using the button with the download icon at the top of the main page to download the code as a ZIP file. Then unzip it and navigate to this folder in your command line using the `cd` command like shown in the following block by substituting your individual path.
 ```
 cd your/local/folder
 npm install @angular/cli
